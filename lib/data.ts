@@ -38,7 +38,7 @@ const bioPages: BioPage[] = [
         titleColor: '#e8e8f0',
         content: {
           type: 'paragraph',
-          text: '21, dolf and briize. love to be peaceful acc but sometimes can be angry.',
+          text: "21 | cs stud | dolf & briize ♡ just here to enjoy my faves. i like keeping this account peaceful, but i won't stay quiet if something crosses the line.",
         },
       },
       {
@@ -47,7 +47,7 @@ const bioPages: BioPage[] = [
   titleColor: '#f7768e',
   content: {
     type: 'list',
-    items: ['eunseok akgae', 'eunseok haters','hardshipper(dislike certain ship, take ship seriously)'],
+    items: ['eunseok akgaes', 'eunseok haters','hard shippers (if you take ships seriously or hate on other ships)'],
   },
 },
 
