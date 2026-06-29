@@ -95,21 +95,6 @@ export default function BioCard({ bio }: BioCardProps) {
             <Section key={section.id} section={section} />
           ))}
         </div>
-
-        {/* Footer meta */}
-        <div style={styles.footer}>
-          <span style={styles.footerItem}>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: 4, verticalAlign: 'middle' }}>
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-              <circle cx="12" cy="12" r="3" />
-            </svg>
-            {bio.views.toLocaleString()} views
-          </span>
-          <span style={styles.footerDot}>·</span>
-          <span style={styles.footerItem}>Published {bio.createdAt}</span>
-          <span style={styles.footerDot}>·</span>
-          <span style={styles.footerItem}>Edited {bio.updatedAt}</span>
-        </div>
       </div>
     </div>
   );
@@ -229,25 +214,5 @@ const styles: Record<string, React.CSSProperties> = {
   sections: {
     display: 'flex',
     flexDirection: 'column',
-  },
-  footer: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-    flexWrap: 'wrap',
-    gap: '4px',
-    marginTop: '24px',
-    paddingTop: '16px',
-    borderTop: '1px solid #2a2a3e',
-  },
-  footerItem: {
-    fontSize: '0.72rem',
-    color: '#5a5a72',
-    display: 'flex',
-    alignItems: 'center',
-  },
-  footerDot: {
-    color: '#3a3a52',
-    fontSize: '0.72rem',
   },
 };
